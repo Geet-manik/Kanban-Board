@@ -1,0 +1,57 @@
+.listContainer{
+    width: 360px;
+    margin-left: 2.5rem;
+}
+.listContainer:last-child{
+    margin-right: 2.5rem;
+}
+.listHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+}
+.listHeaderLeft, .listHeaderRight{
+    display: flex;
+    align-items: center;
+}
+.listIcon{
+    margin-right: .5rem;
+    display: flex;
+    align-items: center;
+}
+.listTitle{
+    margin-right: .65rem;
+    margin-left: .65rem;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+justify-content: center;
+}
+.listAddItem{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.listOptionItem{
+    margin-right: .5rem;
+    cursor: pointer;
+    color: var(--textgrey);
+}
+.listCardItems{
+    width: 100%;
+}
+.listSum{
+    margin-left: 0.5rem;
+    color: var(--textgrey);
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+    .listContainer{
+        width: 320px;
+        margin-left: 1.5rem;
+    }
+    .listContainer:last-child{
+        margin-right: 1.5rem;
+    }
+}
